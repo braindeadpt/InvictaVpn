@@ -1,0 +1,39 @@
+# dependencies
+invicta-website/node_modules
+invicta-website/.pnp
+invicta-website/.pnp.*
+invicta-website/.yarn/*
+!invicta-website/.yarn/patches
+!invicta-website/.yarn/plugins
+!invicta-website/.yarn/releases
+!invicta-website/.yarn/versions
+
+# testing
+invicta-website/coverage
+
+# next.js
+invicta-website/.next/
+invicta-website/out/
+
+# production
+invicta-website/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+invicta-website/npm-debug.log*
+invicta-website/yarn-debug.log*
+invicta-website/yarn-error.log*
+invicta-website/.pnpm-debug.log*
+
+# env files
+invicta-website/.env*
+
+# vercel
+invicta-website/.vercel
+
+# typescript
+invicta-website/*.tsbuildinfo
+invicta-website/next-env.d.ts

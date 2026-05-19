@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-invicta-navy: #0A1B3F;
+  --color-invicta-navy-light: #132B5C;
+  --color-invicta-gold: #C9A84C;
+  --color-invicta-gold-light: #D4BC6A;
+  --color-invicta-gold-dark: #A8882E;
+  --color-invicta-dark: #060F26;
+  --color-invicta-light: #F8F6F0;
+  --color-invicta-gray: #6B7280;
+  --color-invicta-accent: #1E3A6F;
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(1deg); }
+  66% { transform: translateY(5px) rotate(-1deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 8s ease-in-out 2s infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.gradient-mesh {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(30, 58, 111, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 30% at 20% 20%, rgba(10, 27, 63, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 30% at 80% 30%, rgba(30, 58, 111, 0.3) 0%, transparent 50%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #C9A84C 0%, #D4BC6A 50%, #A8882E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(6, 15, 38, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(135deg, #C9A84C, #D4BC6A, #A8882E) 1;
+}

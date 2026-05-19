@@ -1,0 +1,272 @@
+{
+  "site": {
+    "title": "Invicta VPN",
+    "tagline": "Navega sem medo.",
+    "subtitle": "Mui Nobre e Sempre Leal",
+    "description": "A primeira dVPN descentralizada portuguesa. Privacidade total, zero logs, pagamento anónimo em criptomoedas."
+  },
+  "nav": {
+    "home": "Início",
+    "why": "Porquê a Invicta",
+    "features": "Funcionalidades",
+    "compare": "Comparativo",
+    "download": "Descarregar",
+    "faq": "FAQ",
+    "about": "Sobre Nós",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Navega sem medo.",
+    "headline1": "Navega",
+    "headline2": "sem medo.",
+    "subtitle": "A tua privacidade não é um pedido — é um direito.",
+    "description": "A Invicta é uma VPN descentralizada construída na blockchain Sentinel. Zero logs, código aberto, pagamento anónimo em criptomoedas. Milhares de nós espalhados pelo mundo. Nenhuma empresa no meio. Apenas tu e a internet.",
+    "cta": "Descarregar APK",
+    "why_cta": "Porquê a Invicta?",
+    "stats": "Nós ativos em tempo real"
+  },
+  "why": {
+    "title": "Porquê a Invicta?",
+    "subtitle": "Porquê uma dVPN descentralizada?",
+    "description": "As VPNs tradicionais são geridas por uma empresa que controla todos os servidores. Tu confias que eles não guardam logs, não partilham os teus dados, não cedem a pressões governamentais. Com uma dVPN descentralizada, essa confiança é substituída por tecnologia.",
+    "points": [
+      {
+        "title": "Sem dono",
+        "text": "A rede é composta por milhares de nós independentes operados por pessoas como tu. Nenhuma empresa controla os servidores."
+      },
+      {
+        "title": "Zero logs por design",
+        "text": "A arquitectura trustless da blockchain torna impossível guardar registos da tua atividade. Não é uma promessa — é uma impossibilidade técnica."
+      },
+      {
+        "title": "Código aberto",
+        "text": "Todo o código é público e auditável por qualquer pessoa. Segurança por transparência, não por obscuridade."
+      },
+      {
+        "title": "Pagamento anónimo",
+        "text": "Pagas apenas com criptomoedas ($P2P). Sem cartão de crédito, sem dados pessoais, sem contas de email."
+      },
+      {
+        "title": "Resistente à censura",
+        "text": "Por ser descentralizada, é impossível de bloquear. Governos podem ordenar a uma empresa que bloqueie um servidor — mas não podem ordenar a milhares de indivíduos espalhados pelo mundo."
+      },
+      {
+        "title": "Feita em Portugal",
+        "text": "Orgulhosamente criada no Porto. Invicta, como a nossa cidade."
+      }
+    ],
+    "cta": "Experimenta agora"
+  },
+  "features": {
+    "title": "Funcionalidades",
+    "subtitle": "Tudo o que precisas para navegar em segurança e liberdade.",
+    "viewAll": "Ver todas as funcionalidades",
+    "list": [
+      {
+        "title": "WireGuard + V2Ray",
+        "text": "Suporte para os protocolos mais rápidos e seguros da atualidade. Velocidade próxima da ligação direta."
+      },
+      {
+        "title": "Conexão 1-tap",
+        "text": "Escolhe um nó, toca em ligar e estás protegido. Simples como deve ser."
+      },
+      {
+        "title": "Wallet integrada",
+        "text": "Cria a tua wallet na app ou importa uma existente. Tudo offline e seguro no teu dispositivo."
+      },
+      {
+        "title": "Compra integrada de $P2P",
+        "text": "Carrega a wallet com cartão de crédito via Onramper ou deposita criptomoedas diretamente."
+      },
+      {
+        "title": "Milhares de nós globais",
+        "text": "Mais de 2000 nós em 100+ países. Escolhe o nó que quiseres, muda quando quiseres."
+      },
+      {
+        "title": "Android TV",
+        "text": "Protege também a tua smart TV. Versão otimizada para Android TV com navegação por controlo remoto."
+      },
+      {
+        "title": "Código aberto",
+        "text": "100% open source. Auditável, transparente, sem surpresas."
+      },
+      {
+        "title": "Sem registo",
+        "text": "Não precisas de email, nome, morada. A app funciona sem qualquer dado pessoal."
+      }
+    ]
+  },
+  "compare": {
+    "title": "Comparativo",
+    "subtitle": "Vê como a Invicta se compara às VPNs tradicionais.",
+    "table": {
+      "header": ["", "Invicta VPN", "NordVPN", "ExpressVPN", "ProtonVPN", "Mullvad"],
+      "rows": [
+        {
+          "feature": "Tipo",
+          "values": ["Descentralizada (dVPN)", "Centralizada", "Centralizada", "Centralizada", "Centralizada"]
+        },
+        {
+          "feature": "Quem controla os servidores",
+          "values": ["Milhares de nós independentes", "A empresa", "A empresa", "A empresa", "A empresa"]
+        },
+        {
+          "feature": "Política de logs",
+          "values": ["Zero logs (impossível por design)", "Zero logs (prometido)", "Zero logs (prometido)", "Zero logs (prometido)", "Zero logs (auditado)"]
+        },
+        {
+          "feature": "Código aberto",
+          "values": ["100% open source", "Fechado", "Fechado", "Parcial", "Aberto"]
+        },
+        {
+          "feature": "Pagamento anónimo",
+          "values": ["Criptomoedas ($P2P)", "Cartão/PayPal", "Cartão/PayPal", "Cartão/PayPal", "Cartão/Monero"]
+        },
+        {
+          "feature": "Jurisdição",
+          "values": ["Descentralizada (sem jurisdição)", "Panamá", "Ilhas Virgens Britânicas", "Suíça", "Suécia"]
+        },
+        {
+          "feature": "Resistente à censura",
+          "values": ["Sim — impossível de bloquear", "Não", "Não", "Não", "Não"]
+        },
+        {
+          "feature": "Protocolos",
+          "values": ["WireGuard, V2Ray, OpenVPN", "WireGuard, OpenVPN, IKEv2", "Lightway, OpenVPN, IKEv2", "WireGuard, OpenVPN, IKEv2", "WireGuard, OpenVPN"]
+        },
+        {
+          "feature": "Preço mínimo/mês",
+          "values": ["Paga apenas pelo que usas", "~€3,99", "~€6,67", "~€4,99", "~€5,00"]
+        }
+      ]
+    },
+    "note": "Tabela comparativa baseada em informação pública de cada serviço à data de 2026. A Invicta não guarda qualquer tipo de registo porque a arquitectura descentralizada da blockchain torna isso tecnicamente impossível."
+  },
+  "download": {
+    "title": "Descarregar",
+    "subtitle": "Instala a Invicta VPN no teu dispositivo Android.",
+    "mobile": {
+      "title": "Android Mobile",
+      "text": "Para smartphones e tablets Android. Compatível com Android 8.0+.",
+      "button": "Descarregar APK",
+      "version": "Versão",
+      "size": "Tamanho",
+      "hash": "SHA256",
+      "instructions": "Instruções de instalação",
+      "step1": "No teu Android, abre as Definições > Segurança.",
+      "step2": "Ativa 'Instalar apps de fontes desconhecidas'.",
+      "step3": "Faz o download do APK abaixo.",
+      "step4": "Abre o ficheiro transferido e confirma a instalação.",
+      "step5": "Abre a app, cria a tua wallet e começa a navegar."
+    },
+    "tv": {
+      "title": "Android TV",
+      "text": "Para televisões Android TV e Google TV. Compatível com Android TV 7.0+.",
+      "button": "Descarregar APK TV",
+      "instructions": "Instalação na TV",
+      "step1": "Faz o download do APK para o teu computador.",
+      "step2": "Transfere para a TV via USB ou usando 'Send Files to TV'.",
+      "step3": "Abre o ficheiro na TV e confirma a instalação.",
+      "step4": "Navega com o comando remoto e conecta-te a um nó."
+    },
+    "verify": "Verifica a integridade do ficheiro:",
+    "github": "Descarregar do GitHub",
+    "qr": "Aponte a câmara para instalar"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Respostas às dúvidas mais comuns.",
+    "items": [
+      {
+        "q": "O que é uma dVPN?",
+        "a": "Uma dVPN (VPN descentralizada) funciona como uma VPN tradicional, mas em vez de uma empresa controlar todos os servidores, a rede é composta por milhares de nós independentes operados por pessoas em todo o mundo. Isto elimina a necessidade de confiar numa entidade central."
+      },
+      {
+        "q": "Preciso de criar conta?",
+        "a": "Não. A Invicta não precisa de email, nome ou qualquer dado pessoal. A app gera uma wallet criptográfica no teu dispositivo e é com ela que pagas e geres as tuas sessões."
+      },
+      {
+        "q": "Como é que pago?",
+        "a": "Pagas com $P2P, o token nativo da blockchain Sentinel. Podes comprar $P2P dentro da própria app (com cartão de crédito via Onramper) ou depositar $P2P que já tenhas na tua wallet."
+      },
+      {
+        "q": "A Invicta guarda logs?",
+        "a": "É tecnicamente impossível. A arquitectura da blockchain Sentinel faz com que não haja um servidor central a registar a tua atividade. Não é uma promessa — é uma impossibilidade técnica."
+      },
+      {
+        "q": "Isto é legal?",
+        "a": "Sim. VPNs são legais em Portugal e na maioria dos países. A Invicta é uma ferramenta de privacidade, não uma ferramenta para atividades ilegais."
+      },
+      {
+        "q": "Qual a diferença entre a Invicta e uma VPN normal?",
+        "a": "Numa VPN normal (NordVPN, ExpressVPN, etc.), uma empresa é dona de todos os servidores e tu confias que ela não guarda os teus dados. Na Invicta, os servidores são de milhares de pessoas independentes e a tecnologia blockchain garante que não há registo de atividade."
+      },
+      {
+        "q": "A Invicta funciona no iPhone?",
+        "a": "De momento a Invicta está disponível apenas para Android (mobile e TV). Versão para iOS está em planeamento."
+      },
+      {
+        "q": "A Invicta funciona no Windows ou Mac?",
+        "a": "De momento apenas Android. Versões para Windows (Tauri) e Mac estão no roadmap."
+      },
+      {
+        "q": "Quantos nós têm disponíveis?",
+        "a": "A Invicta usa a rede Sentinel, que tem milhares de nós ativos em mais de 100 países. Os nós são operados independentemente pela comunidade."
+      },
+      {
+        "q": "Como sei que o código é seguro?",
+        "a": "Todo o código da Invicta é open source e está disponível no GitHub. Qualquer pessoa pode auditar, verificar e contribuir."
+      },
+      {
+        "q": "O que é o $P2P?",
+        "a": "O $P2P (anteriormente $DVPN) é o token nativo da blockchain Sentinel. É usado para pagar sessões VPN na rede. Podes comprar em exchanges descentralizadas como a Osmosis."
+      },
+      {
+        "q": "Como posso contribuir para o projeto?",
+        "a": "O projeto é open source no GitHub. Podes reportar bugs, sugerir funcionalidades, traduzir ou contribuir com código. Toda a ajuda é bem-vinda."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre a Invicta VPN",
+    "hero": "Mui Nobre e Sempre Leal",
+    "intro": "A Invicta VPN nasceu no Porto, Portugal, com uma missão clara: libertar o acesso à internet. Inspirados na história dos navegadores e conquistadores portugueses, criámos uma ferramenta que devolve o controlo da privacidade a quem realmente importa — o utilizador.",
+    "mission": {
+      "title": "A Nossa Missão",
+      "text": "Num mundo onde a privacidade online é cada vez mais escassa, acreditamos que o acesso à internet deve ser livre, seguro e privado para todos. Não pedimos permissão. Não dependemos de empresas. Não guardamos registos."
+    },
+    "vision": {
+      "title": "A Nossa Visão",
+      "text": "Um futuro onde a privacidade digital é a norma, não o privilégio. Onde navegar na internet é tão livre como os marinheiros portugueses a navegar os mares desconhecidos."
+    },
+    "values": {
+      "title": "Os Nossos Valores",
+      "list": [
+        "Privacidade radical — os teus dados são teus e mais de ninguém",
+        "Transparência total — código aberto, sem segredos",
+        "Descentralização — o poder nas mãos de muitos, não de poucos",
+        "Liberdade — acesso à internet sem fronteiras nem censura"
+      ]
+    },
+    "tech": {
+      "title": "Tecnologia",
+      "text": "A Invicta é construída sobre a blockchain Sentinel (Cosmos SDK), utilizando os protocolos WireGuard, V2Ray e OpenVPN para túneis seguros e rápidos. O código é 100% open source e auditável."
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "made": "Feito no Porto, Portugal",
+    "motto": "Mui Nobre e Sempre Leal",
+    "links": "Links",
+    "legal": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Utilização",
+    "community": "Comunidade",
+    "disclaimer": "A Invicta VPN é uma aplicação white-label construída sobre a blockchain Sentinel. Não somos afiliados ou patrocinados pela Sentinel. O código é open source sob licença MIT."
+  },
+  "notfound": {
+    "title": "Página não encontrada",
+    "text": "A página que procuras não existe.",
+    "button": "Voltar ao início"
+  }
+}
